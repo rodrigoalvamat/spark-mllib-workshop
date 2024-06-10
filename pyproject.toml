@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "workshop"
+version = "0.1.0"
+description = "Spark MLlib Workshop"
+authors = ["Rodrigo Mattos <rodrigo.mattos@kroger.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+matplotlib = "^3.8.1"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+pyarrow = "^16.1.0"
+pyspark = "^3.5.1"
+python = ">=3.11,<3.13"
+seaborn = "^0.13.2"
+setuptools = "^70.0.0"
+wordcloud = "^1.9.2"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^4.2.1"
+ipykernel = "^6.29.4"
+mypy = "^1.6.1"
+notebook = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
