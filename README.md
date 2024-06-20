@@ -5,9 +5,11 @@ This repository contains a quick introduction to Apache Spark MLlib through two 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Presentation](#presentation)
 - [Notebooks](#notebooks)
   - [Market Basket Analysis](#market-basket-analysis)
   - [Customer Churn Prediction](#customer-churn-prediction)
+- [Resources](#resources)
 - [Installation](#installation)
 - [Docker and Docker-Compose Requirements](#docker-and-docker-compose-requirements)
 - [Customization](#customization)
@@ -21,6 +23,14 @@ This workshop provides a quick introduction to Spark MLlib. It includes two main
 
 1. **Market Basket Analysis using Apache Spark**: Focuses on the FP-Growth algorithm and Exploratory Data Analysis (EDA).
 2. **Customer Churn Prediction with PySpark MLlib**: Focuses on Random Forest classification and the machine learning pipeline.
+
+## Presentation
+
+Download the workshop presentation slides:
+
+1. [Spark MLlib Workshop PDF](./presentation/spark-mllib-workshop.pdf)
+2. [Spark MLlib Workshop MS PowerPoint](./presentation/spark-mllib-workshop.pptx)
+
 
 ## Notebooks
 
@@ -40,6 +50,16 @@ The second notebook walks through the process of predicting customer churn using
 - Building a machine learning pipeline with feature engineering.
 - Training and evaluating a Random Forest classifier.
 
+## Resources
+
+| Category                    | Content                                                                                                                              |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Book**                    | [Scaling Machine Learning with Spark By Adi Polak](https://learning.oreilly.com/library/view/scaling-machine-learning/978109810681/) |
+| **PySpark Documentation**   | [Machine Learning Library (MLlib) Guide](https://spark.apache.org/docs/latest/ml-guide.html)                                         |
+| **Coursera (Beginner)**     | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)                            |
+| **Coursera (Beginner)**     | [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)                     |
+| **Coursera (Intermediate)** | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning)                                         |
+
 ## Installation
 
 To install the necessary dependencies, use [Poetry](https://python-poetry.org/). Run the following commands:
@@ -54,6 +74,18 @@ Ensure you have Docker and Docker-Compose installed on your system. You can find
 
 - [Docker Installation](https://docs.docker.com/get-docker/)
 - [Docker-Compose Installation](https://docs.docker.com/compose/install/)
+
+### Running on macOS using Colima
+
+If you are using macOS, you can use Colima to run Docker. Colima is a container runtime that runs on macOS with minimal setup. 
+
+First, install Colima by following the instructions [here](https://github.com/abiosoft/colima).
+
+To start Colima with 8 CPUs, 12 GB of RAM, and 30 GB of disk space, use the following command:
+
+```bash
+colima start --cpu 8 --memory 12 --disk 30
+```
 
 ## Customization
 
