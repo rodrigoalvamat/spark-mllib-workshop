@@ -52,13 +52,13 @@ The second notebook walks through the process of predicting customer churn using
 
 ## Resources
 
-| Category                    | Content                                                                                                                              |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| **Book**                    | [Scaling Machine Learning with Spark By Adi Polak](https://learning.oreilly.com/library/view/scaling-machine-learning/978109810681/) |
-| **PySpark Documentation**   | [Machine Learning Library (MLlib) Guide](https://spark.apache.org/docs/latest/ml-guide.html)                                         |
-| **Coursera (Beginner)**     | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)                            |
-| **Coursera (Beginner)**     | [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)                     |
-| **Coursera (Intermediate)** | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning)                                         |
+| Category                    | Content                                                                                                                               | Publisher                |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| **Book**                    | [Scaling Machine Learning with Spark By Adi Polak](https://learning.oreilly.com/library/view/scaling-machine-learning/9781098106812/) | O'Reilly                 |
+| **Spark Documentation**     | [Machine Learning Library (MLlib) Guide](https://spark.apache.org/docs/latest/ml-guide.html)                                          | Spark Open Source        |
+| **Coursera (Beginner)**     | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)                             | DeepLearning.AI          |
+| **Coursera (Beginner)**     | [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)                      | IBM                      |
+| **Coursera (Intermediate)** | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning)                                          | University of Washington |
 
 ## Installation
 
