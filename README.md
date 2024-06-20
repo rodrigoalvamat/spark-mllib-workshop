@@ -5,7 +5,6 @@ This repository contains a quick introduction to Apache Spark MLlib through two 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Presentation](#presentation)
 - [Notebooks](#notebooks)
   - [Market Basket Analysis](#market-basket-analysis)
   - [Customer Churn Prediction](#customer-churn-prediction)
@@ -23,14 +22,6 @@ This workshop provides a quick introduction to Spark MLlib. It includes two main
 
 1. **Market Basket Analysis using Apache Spark**: Focuses on the FP-Growth algorithm and Exploratory Data Analysis (EDA).
 2. **Customer Churn Prediction with PySpark MLlib**: Focuses on Random Forest classification and the machine learning pipeline.
-
-## Presentation
-
-Download the workshop presentation slides:
-
-1. [Spark MLlib Workshop PDF](./presentation/spark-mllib-workshop.pdf)
-2. [Spark MLlib Workshop MS PowerPoint](./presentation/spark-mllib-workshop.pptx)
-
 
 ## Notebooks
 
