@@ -57,8 +57,11 @@ cython_debug/
 # Jetbrains
 .idea/
 
+# Macos
+.DS_Store
+
 # Spark
-data
+data/instacart
 metastore_db
 spark-warehouse
 *.log
